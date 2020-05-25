@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>wangzhen</Authors>
+    <Description>通过OPC读取PLC</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpcUaHelper" Version="2.1.2" />
+  </ItemGroup>
+
+</Project>
